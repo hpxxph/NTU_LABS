@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "NTU_LB6/1.0.0": {
+        "runtime": {
+          "NTU_LB6.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NTU_LB6/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

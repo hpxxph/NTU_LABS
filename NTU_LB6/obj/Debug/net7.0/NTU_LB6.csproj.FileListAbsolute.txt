@@ -1,0 +1,14 @@
+/Users/hpxxph/Documents/labs_ntu_cpp/NTU_LB6/bin/Debug/net7.0/NTU_LB6
+/Users/hpxxph/Documents/labs_ntu_cpp/NTU_LB6/bin/Debug/net7.0/NTU_LB6.deps.json
+/Users/hpxxph/Documents/labs_ntu_cpp/NTU_LB6/bin/Debug/net7.0/NTU_LB6.runtimeconfig.json
+/Users/hpxxph/Documents/labs_ntu_cpp/NTU_LB6/bin/Debug/net7.0/NTU_LB6.dll
+/Users/hpxxph/Documents/labs_ntu_cpp/NTU_LB6/bin/Debug/net7.0/NTU_LB6.pdb
+/Users/hpxxph/Documents/labs_ntu_cpp/NTU_LB6/obj/Debug/net7.0/NTU_LB6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hpxxph/Documents/labs_ntu_cpp/NTU_LB6/obj/Debug/net7.0/NTU_LB6.AssemblyInfoInputs.cache
+/Users/hpxxph/Documents/labs_ntu_cpp/NTU_LB6/obj/Debug/net7.0/NTU_LB6.AssemblyInfo.cs
+/Users/hpxxph/Documents/labs_ntu_cpp/NTU_LB6/obj/Debug/net7.0/NTU_LB6.csproj.CoreCompileInputs.cache
+/Users/hpxxph/Documents/labs_ntu_cpp/NTU_LB6/obj/Debug/net7.0/NTU_LB6.dll
+/Users/hpxxph/Documents/labs_ntu_cpp/NTU_LB6/obj/Debug/net7.0/refint/NTU_LB6.dll
+/Users/hpxxph/Documents/labs_ntu_cpp/NTU_LB6/obj/Debug/net7.0/NTU_LB6.pdb
+/Users/hpxxph/Documents/labs_ntu_cpp/NTU_LB6/obj/Debug/net7.0/NTU_LB6.genruntimeconfig.cache
+/Users/hpxxph/Documents/labs_ntu_cpp/NTU_LB6/obj/Debug/net7.0/ref/NTU_LB6.dll
