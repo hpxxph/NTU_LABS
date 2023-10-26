@@ -1,8 +1,8 @@
 #include <iostream>
+#include <math.h>
+#include <vector>
 #include <cstdlib>
 #include <ctime>
-
-using namespace std;
 
 void matrixOutput(const int COLS, const int ROWS);
 
@@ -18,40 +18,36 @@ int main() {
 }
 
 void matrixOutput(const int COLS, const int ROWS) {
-    int arr[ROWS][COLS];
+
+    std::vector<std::vector<int> > matrixVector(ROWS, std::vector<int> (COLS, 0));
     int used[10] = {0};
 
     std::cout << "\n\t----------MATRIX----------\n" << std::endl; 
 
     for (int i = 0; i < ROWS; i += 1) {
-        for (int j = 0; j < COLS; j += 1) {
-            int num;
-            do {
-                 num = rand() % 10;
-            } while (used[num]);
-            
-            arr[i][j] = num; 
-            cout << "\t" << arr[i][j]; 
+        for (int j = 0; j < COLS; j += 1) {            
+            matrixVector[i][j] = rand() % 10; 
+            std::cout << "\t" << matrixVector[i][j]; 
         }
-        cout << endl;
+        std::cout << std::endl;
     }
 
     int diagonals[COLS];
     int maxValue = 0;
-    int minValue = arr[0][0]; 
+    int minValue = matrixVector[0][0]; 
 
     for (int i = 0; i < ROWS; i += 1) {
         for (int j = 0; j < COLS; j += 1) {
-            if (i == j) diagonals[i] = arr[i][j];
+            if (i == j) diagonals[i] = matrixVector[i][j];
         }
     }
 
-    cout << endl;
+    std::cout << std::endl;
 
     std::cout << "\t--------DIAGONALS--------\n" << std::endl; 
 
     for (int i = 0; i < COLS; i += 1) {
-         cout << "\t" << diagonals[i]; 
+         std::cout << "\t" << diagonals[i]; 
          if (diagonals[i] > maxValue) {
             maxValue = diagonals[i]; 
          } 
@@ -60,12 +56,12 @@ void matrixOutput(const int COLS, const int ROWS) {
          }
     }
 
-    cout << endl;
+    std::cout << std::endl;
 
     std::cout << "\n\t------MAX_&&_MIN_VALUE------\n" << std::endl; 
 
-    cout << "\n\t" << "Max value: " << maxValue << endl; 
-    cout << "\n\t" << "Min value: " << minValue << endl;
+    std::cout << "\n\t" << "Max value: " << maxValue << std::endl; 
+    std::cout << "\n\t" << "Min value: " << minValue << std::endl;
 
     std::cout << "\n\t----------------------------\n" << std::endl; 
 }
